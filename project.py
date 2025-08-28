@@ -24,7 +24,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация бота
-BOT_TOKEN = "7144123711:AAGoBlsXLVVHAGn2dNGO7Xs4jriYZZ97xjM"
+BOT_TOKEN = ""
 MAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB (ограничение Telegram для ботов)
 
 # Инициализация бота с правильными параметрами
@@ -459,4 +459,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
